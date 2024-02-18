@@ -1,0 +1,17 @@
+[
+  {
+    "name": "pablo",
+    "position": "development",
+    "salary": "16.000"
+  },
+  {
+    "name": "emiliano",
+    "position": "senior",
+    "salary": "17.000"
+  },
+  {
+    "name": "roberto",
+    "position": "director",
+    "salary": "25.000"
+  }
+]
