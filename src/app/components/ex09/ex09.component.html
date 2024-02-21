@@ -1,13 +1,28 @@
 <h1>Exercice 9</h1>
 <h2>*ngFor - Classes</h2>
+
+<b>Select an option to sort the table:</b>
+<select name="sorting" [(ngModel)]="criteria"
+        (change)="sortEmployees()" id="sorting">
+  <option value="" selected></option>
+  <option value="name"> Name</option>
+  <option value="position"> Position</option>
+  <option value="salary"> Salary</option>
+  <option value="place"> Place</option>
+</select><br>
+
 <b>Employees:</b>
 <table class="table-bordered table-hover">
   <tr>
-    <th>Name</th><th>Position</th><th>Salary</th>
+    <th>Name</th>
+    <th>Position</th>
+    <th>Salary</th>
+    <th>Place</th>
   </tr>
   <tr *ngFor="let e of employees | async">
     <td>{{ e.name }}</td>
     <td>{{ e.position }}</td>
     <td>{{ e.salary }} €</td>
+    <td>{{ e.place }}</td>
   </tr>
 </table>

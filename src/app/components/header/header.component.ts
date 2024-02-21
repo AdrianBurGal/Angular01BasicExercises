@@ -22,6 +22,7 @@ import {RouterLink} from "@angular/router";
                   <li><a routerLink="ex08">Exercise 8</a></li>
                   <li><a routerLink="ex09">Exercise 9</a></li>
                   <li><a routerLink="ex10">Exercise 10</a></li>
+                  <li><a routerLink="exExam">Exercise Exam</a></li>
               </ul>
           </div>
       </nav>

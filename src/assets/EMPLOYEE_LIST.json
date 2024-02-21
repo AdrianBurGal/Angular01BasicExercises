@@ -2,16 +2,19 @@
   {
     "name": "pablo",
     "position": "development",
-    "salary": "16.000"
-  },
-  {
-    "name": "emiliano",
-    "position": "senior",
-    "salary": "17.000"
+    "salary": "16.000",
+    "place": "Accenture"
   },
   {
     "name": "roberto",
     "position": "director",
-    "salary": "25.000"
+    "salary": "25.000",
+    "place": "Indra"
+  },
+  {
+    "name": "emiliano",
+    "position": "senior",
+    "salary": "17.000",
+    "place": "Indra"
   }
 ]

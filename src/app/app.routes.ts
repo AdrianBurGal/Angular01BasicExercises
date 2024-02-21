@@ -1,4 +1,4 @@
-import { Routes } from '@angular/router';
+import {Routes} from '@angular/router';
 import {Ex01Component} from "./components/ex01/ex01.component";
 import {Ex02Component} from "./components/ex02/ex02.component";
 import {Ex03Component} from "./components/ex03/ex03.component";
@@ -10,6 +10,7 @@ import {Ex08Component} from "./components/ex08/ex08.component";
 import {Ex09Component} from "./components/ex09/ex09.component";
 import {Ex10Component} from "./components/ex10/ex10.component";
 import {HeaderComponent} from "./components/header/header.component";
+import {ExExamComponent} from "./components/ex-exam/ex-exam.component";
 
 export const routes: Routes = [
   {
@@ -61,5 +62,10 @@ export const routes: Routes = [
     path: "ex10",
     component: Ex10Component,
     title: 'Exercise 10'
+  },
+  {
+    path: "exExam",
+    component: ExExamComponent,
+    title: 'Exercise Exam'
   },
 ];
